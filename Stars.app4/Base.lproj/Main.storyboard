@@ -30,29 +30,26 @@
                                                     <rect key="frame" x="20" y="1" width="174.5" height="50"/>
                                                     <subviews>
                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="c7n-1K-yn4">
-                                                            <rect key="frame" x="0.0" y="0.0" width="81" height="27.5"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="174.5" height="50"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Star Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5EU-Fk-dpZ">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="81" height="27.5"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="174.5" height="29.5"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                    <nil key="textColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Distance in Light Years" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pVq-Z7-gko">
+                                                                    <rect key="frame" x="0.0" y="29.5" width="174.5" height="20.5"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="height" constant="20.5" id="CJR-Ak-Xhb"/>
+                                                                    </constraints>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                             </subviews>
                                                         </stackView>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Distance in Light Years" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pVq-Z7-gko">
-                                                            <rect key="frame" x="0.0" y="29.5" width="174.5" height="20.5"/>
-                                                            <constraints>
-                                                                <constraint firstAttribute="height" constant="20.5" id="CJR-Ak-Xhb"/>
-                                                            </constraints>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                            <nil key="textColor"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
                                                     </subviews>
-                                                    <constraints>
-                                                        <constraint firstItem="pVq-Z7-gko" firstAttribute="leading" secondItem="MhL-Gp-UPv" secondAttribute="leadingMargin" id="xDl-9O-8zb"/>
-                                                    </constraints>
                                                 </stackView>
                                             </subviews>
                                             <constraints>
